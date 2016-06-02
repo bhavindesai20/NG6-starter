@@ -40,7 +40,8 @@ class VideoplayerController {
     this.config = {
       sources: this.videos[0].sources ,
       theme: {
-        url: "/app/components/videoplayer/videogular.css"
+        //url: "/app/components/videoplayer/videogular.css"
+        url: "../../../assets/videogular.css"
       },
       title:"Video Title",
       autohide:"true",

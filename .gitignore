@@ -5,6 +5,9 @@ node_modules
 .settings
 *.log
 dist/
-.idea/
-/.idea/
+src/main/resources/static/
 .idea
+ignore
+.classpath
+.project
+target/

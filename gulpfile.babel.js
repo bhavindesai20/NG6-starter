@@ -39,7 +39,7 @@ let paths = {
   entry: path.join(__dirname, root, 'app/app.js'),
   output: root,
   blankTemplates: path.join(__dirname, 'generator', 'component/**/*.**'),
-  dest: path.join(__dirname, 'dist')
+  dest: path.join(__dirname, 'src/main/resources/static')
 };
 
 // use webpack.config.js to build modules
